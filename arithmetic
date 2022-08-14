@@ -1,0 +1,4 @@
+#!/bin/bash
+read n
+printf "%.3f\n" `echo "$n" | bc -l`
+

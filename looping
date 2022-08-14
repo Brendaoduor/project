@@ -1,0 +1,11 @@
+#!/bin/bash
+read word
+if [[ $word = Y || $word = y ]]
+then
+echo "YES"
+fi
+if [[ $word = N || $word = n ]]
+then
+echo "NO"
+fi
+
